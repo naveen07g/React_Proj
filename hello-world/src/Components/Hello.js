@@ -8,6 +8,7 @@ import ClassClick from "./ClassClick";
 import EventBind from "./EventBind";
 import EventBinding from "./EventBinding";
 import ParentComponent from "./ParentComponent";
+import UserGreeting from "./UserGreeting";
 
 const Hello = () => {
     //JSX approach
@@ -45,7 +46,9 @@ const Hello = () => {
 
             {/* <EventBinding /> */}
 
-            <ParentComponent />
+            {/* <ParentComponent /> */}
+
+            <UserGreeting / >
         </div>
     )
 
