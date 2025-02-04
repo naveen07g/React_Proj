@@ -10,6 +10,7 @@ import EventBinding from "./EventBinding";
 import ParentComponent from "./ParentComponent";
 import UserGreeting from "./UserGreeting";
 import NameList from "./NameList";
+import NamesLists from "./NamesLists";
 
 const Hello = () => {
     //JSX approach
@@ -52,7 +53,8 @@ const Hello = () => {
             {/* <UserGreeting / > */}
 
 
-            <NameList />
+            {/* <NameList /> */}
+            <NamesLists />
         </div>
     )
 
