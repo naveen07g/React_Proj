@@ -25,13 +25,13 @@ function NameList(){
             Skill: "Salesforce"
         },
         {
-            id: 1,
+            id: 3,
             name: "Vishnu priya",
             Age: 27,
             Skill: "Dotnet + Saleforce"
         },
         {
-            id: 1,
+            id: 4,
             name: "Naveen",
             Age: 30,
             Skill: "Dotnet full"
@@ -39,7 +39,7 @@ function NameList(){
     ]
     const personsList = persons.map(person => 
         (
-            <PersonDataProcess persondata = {person}></PersonDataProcess>
+            <PersonDataProcess key = {person.id} persondata = {person}></PersonDataProcess>
         )
     )
 

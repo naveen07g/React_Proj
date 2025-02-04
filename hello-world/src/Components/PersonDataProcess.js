@@ -1,9 +1,9 @@
 import React from "react";
-function PersonDataProcess({persondata}){
+function PersonDataProcess({key, persondata}){
     return(
         <div>
             <h2>
-            I am {persondata.name}, 
+            {key} I am {persondata.name}, 
             {persondata.Age} year old. 
             Having the following skill {persondata.Skill}
             </h2>
