@@ -11,6 +11,8 @@ import ParentComponent from "./ParentComponent";
 import UserGreeting from "./UserGreeting";
 import NameList from "./NameList";
 import NamesLists from "./NamesLists";
+import StyleSheet from "./StyleSheet";
+import InlineStyle from "./InlineStyle";
 
 const Hello = () => {
     //JSX approach
@@ -54,7 +56,9 @@ const Hello = () => {
 
 
             {/* <NameList /> */}
-            <NamesLists />
+            {/* <NamesLists /> */}
+            {/* <StyleSheet primary = {true}/> */}
+            <InlineStyle />
         </div>
     )
 
